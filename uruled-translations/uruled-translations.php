@@ -14,13 +14,16 @@ function force_translations($translated, $text, $domain) {
         'Checkout Details'          => 'Detalles de la compra',
         'Order Complete'            => 'Orden completa',
         'View Cart'                 => 'Ver carrito',
+        'View cart'                 => 'Ver carrito',
         'Checkout'                  => 'Comprar',
-        'Type and hit enter …'      => '¿Qué busca?',
+        'Type and hit enter'       => '¿Qué busca?',
         'Refresh Cart'              => 'Actualizar',
         'No products in the cart.'  => 'El carrito está vacío',
         'Customer Details'          => 'Datos del cliente',
-        'Phone:'                    => 'Teléfono',
-        'Billing Address'           => 'Dirección de facturación',
+        'Phone:'                    => 'Teléfono:',
+        'Billing Address'           => 'Dirección de facturación:',
+        'Grid view'                 => 'Vista de grilla',
+        'List view'                 => 'Vista de lista',
     ];
 
     // If the text exists in the map, return the translation instead.
@@ -30,4 +33,3 @@ function force_translations($translated, $text, $domain) {
 
     return $translated;
 }
-
